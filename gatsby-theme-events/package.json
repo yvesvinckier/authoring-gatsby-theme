@@ -19,7 +19,12 @@
         "react-dom": "^16.8.6"
     },
     "dependencies": {
+        "@emotion/core": "^10.0.15",
+        "@emotion/styled": "^10.0.15",
+        "@mdx-js/react": "^1.1.6",
+        "gatsby-plugin-theme-ui": "^0.2.29",
         "gatsby-source-filesystem": "^2.1.9",
-        "gatsby-transformer-yaml": "^2.2.4"
+        "gatsby-transformer-yaml": "^2.2.4",
+        "theme-ui": "^0.2.31"
     }
 }

@@ -1,5 +1,6 @@
 module.exports = ({ contentPath = "data", basePath = "/" }) => ({
     plugins: [
+        "gatsby-plugin-theme-ui",
         {
             resolve: "gatsby-source-filesystem",
             options: {
@@ -12,5 +13,5 @@ module.exports = ({ contentPath = "data", basePath = "/" }) => ({
                 typeName: "Event",
             },
         },
-    ]
+    ],
 })
